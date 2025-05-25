@@ -1,5 +1,18 @@
 @font-face {
-    font-family: "IranianSans";
-    src: url("../fonts/A-Iranian-Sans/Iranian-Sans.ttf") format("truetype");
+    font-family: "IRANSansX";
+    src: url("../fonts/A-Iranian-Sans/IRANSans.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "IRANSansX-light";
+    src: url("../fonts/A-Iranian-Sans/IRANSans-UltraLight.ttf") format("truetype");
+}
+
+body {
+    font-family: 'IRANSansX';
+}
+
+p.custom-font {
+    font-family: 'IRANSansX-light';
+    font-size: 0.27cm;
+}
